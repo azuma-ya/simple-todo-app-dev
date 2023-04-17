@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	padding: 30px;
+}
+
+.add-task-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add-task-form .add-task-button {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.task-input {
+	/* border: none; */
+	margin-bottom: 20px;
+	outline: none;
+	padding: 10px;
+	font-size: 2rem;
+}
