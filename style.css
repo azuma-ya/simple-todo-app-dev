@@ -14,6 +14,7 @@ body {
 
 li {
 	list-style: none;
+	font-size: 2rem;
 }
 
 .container {
@@ -31,10 +32,21 @@ li {
 	margin-bottom: 20px;
 }
 
+.task {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
 .task-input {
 	/* border: none; */
 	margin-bottom: 20px;
 	outline: none;
 	padding: 10px;
 	font-size: 2rem;
+}
+
+.task-checkbox {
+	transform: scale(2);
+	margin: 20px 10px;
 }
